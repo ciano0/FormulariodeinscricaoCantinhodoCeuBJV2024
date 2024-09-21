@@ -1,0 +1,168 @@
+body {
+    background-color: rgba(38, 38, 38, 1);
+    color: white;
+    font-family: Calibri, sans-serif;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+#img1 {
+    float: left;
+    margin: 40px;
+    margin-right: 70px;
+    margin-bottom: 0px;
+}
+
+#img2 {
+    float: right;
+    margin: 40px;
+    margin-left: 60px;
+}
+
+.titulo {
+    height: 200px;
+    width: 921px;
+    text-align: center;
+}
+
+.forms {
+    margin-left: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-pair {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-pair label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-pair input[type="text"] {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(38, 38, 38, 1);
+    color: white;
+}
+
+.forms h4 {
+    margin-top: 20px;
+    color: white;
+    border: 1px solid;
+    width: 275px;
+    padding: 5px;
+}
+.forms p{
+    margin-top: 20px;
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+}
+
+#obs {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#obs input[type="text"] {
+    width: 100%;
+    height: 30px;
+}
+
+label {
+    color: white;
+}
+
+input {
+    background-color: rgba(38, 38, 38, 1);
+    color: white;
+}
+
+#nome_da_crianca {
+    width: 600px;
+}
+
+#data_de_nascimento {
+    margin: 10px;
+    width: 100px;
+}
+
+#endereco {
+    width: 700px;
+}
+
+#bairro {
+    margin: 10px;
+    width: 230px;
+}
+
+#nome_da_mae {
+    width: 400px;
+    margin-right: 20px;
+}
+
+#nome_do_pai {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 407px;
+    margin-right: 20px;
+}
+
+#batizado {
+    margin-right: 10px;
+}
+
+#sim {
+    margin-right: 20px;
+}
+
+#nao {
+    margin-right: 10px;
+}
+
+#paroquia {
+    margin-bottom: 10px;
+    width: 450px;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.child-container:last-child {
+    margin-right: 0;
+}
+
+.child-container .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.child-container .form-group label {
+    margin-bottom: 5px;
+}
+
+.child-container .form-group input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(38, 38, 38, 1);
+    color: white;
+}
